@@ -72,7 +72,7 @@ def confirm_store_result(result):
             print(msg_12)
         yn = input()
         if yn == "y":
-            if msg_index == 13:
+            if msg_index == 12:
                 return True
             msg_index += 1
         elif yn == "n":
